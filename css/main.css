@@ -1,111 +1,14 @@
-:root {
-    /* Pallet */
+/* BASICK */
+@import url(basic/base.css);
+@import url(basic/root.css);
+@import url(basic/helpers.css);
+@import url(basic/route.css);
 
-    /* BP */
-    --s: 420px;
-    --m: 760px;
-    --l: 1040px;
-}
+/* CMPS */
+@import url(cmps/footer.css);
+@import url(cmps/header.css);
 
-* {
-    box-sizing: border-box;
-}
-
-/* TYPOGRAPHY */
-
-/* BASICS */
-
-h1, h2, h3, h4, h5, h6, p, body {
-    margin: 0;
-}
-
-p {
-    padding: 10px;
-}
-
-button {
-    cursor: pointer;
-}
-
-/* LAYOUT */
-
-
-/* HELPERS */
-
-.hide {
-    display: none;
-}
-
-.logo {
-    margin-inline-start: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.5em;
-    font-style: italic;
-    -webkit-text-stroke: 1px #eee;
-    text-shadow: 5px 5px 5px #333;
-    letter-spacing: .03em;
-}
-
-/* flex helpers */
-
-.flex {
-    display: flex;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.wrap{
-    flex-wrap: wrap;
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.justify-evenly{
-    justify-content: space-evenly;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.align-items-center {
-    align-items: center;
-}
-
-/* grid helpers */
-
-.grid {
-    display: grid;
-}
-
-
-/* list helpers */
-
-.clear-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-/* SMALL */
-
-@media (min-width: 420px) {
-
-}
-
-/* MEDIUM */
-
-@media (min-width: 760px) {
-
-}
-
-/* LARGE */
-
-@media (min-width: 1040px) {
-
-}
+/* MEDIA */
+@import 'media/small.css' (min-width:420px);
+@import 'media/medium.css' (min-width:760px);
+@import 'media/large.css' (min-width:1040px);
