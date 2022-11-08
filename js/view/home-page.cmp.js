@@ -1,5 +1,5 @@
 export default {
-    template:`
+  template: `
     <h2>
         Home page
     </h2>
