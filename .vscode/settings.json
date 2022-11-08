@@ -1,0 +1,10 @@
+{
+    "liveServer.settings.port": 5502
+    ,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "vue": "html",
+        "html": "html"
+      }
+}

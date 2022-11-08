@@ -1,0 +1,111 @@
+:root {
+    /* Pallet */
+
+    /* BP */
+    --s: 420px;
+    --m: 760px;
+    --l: 1040px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* TYPOGRAPHY */
+
+/* BASICS */
+
+h1, h2, h3, h4, h5, h6, p, body {
+    margin: 0;
+}
+
+p {
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* LAYOUT */
+
+
+/* HELPERS */
+
+.hide {
+    display: none;
+}
+
+.logo {
+    margin-inline-start: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
+    -webkit-text-stroke: 1px #eee;
+    text-shadow: 5px 5px 5px #333;
+    letter-spacing: .03em;
+}
+
+/* flex helpers */
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* grid helpers */
+
+.grid {
+    display: grid;
+}
+
+
+/* list helpers */
+
+.clear-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SMALL */
+
+@media (min-width: 420px) {
+
+}
+
+/* MEDIUM */
+
+@media (min-width: 760px) {
+
+}
+
+/* LARGE */
+
+@media (min-width: 1040px) {
+
+}
